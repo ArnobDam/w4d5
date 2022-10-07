@@ -1,0 +1,21 @@
+[1m[1;34mString.methods[0m[0m: try_convert
+[1m[1;34mString#methods[0m[0m: 
+  %            casecmp         delete_suffix!         gsub      ord           slice        to_s               
+  *            casecmp?        downcase               gsub!     partition     slice!       to_str             
+  +            center          downcase!              hash      prepend       split        to_sym             
+  +@           chars           dump                   hex       pretty_print  squeeze      tr                 
+  -@           chomp           each_byte              include?  replace       squeeze!     tr!                
+  <<           chomp!          each_char              index     reverse       start_with?  tr_s               
+  <=>          chop            each_codepoint         insert    reverse!      strip        tr_s!              
+  ==           chop!           each_grapheme_cluster  inspect   rindex        strip!       undump             
+  ===          chr             each_line              intern    rjust         sub          unicode_normalize  
+  =~           clear           empty?                 length    rpartition    sub!         unicode_normalize! 
+  []           codepoints      encode                 lines     rstrip        succ         unicode_normalized?
+  []=          concat          encode!                ljust     rstrip!       succ!        unpack             
+  ascii_only?  count           encoding               lstrip    scan          sum          unpack1            
+  b            crypt           end_with?              lstrip!   scrub         swapcase     upcase             
+  bytes        delete          eql?                   match     scrub!        swapcase!    upcase!            
+  bytesize     delete!         force_encoding         match?    setbyte       to_c         upto               
+  byteslice    delete_prefix   freeze                 next      shellescape   to_f         valid_encoding?    
+  capitalize   delete_prefix!  getbyte                next!     shellsplit    to_i       
+  capitalize!  delete_suffix   grapheme_clusters      oct       size          to_r       
